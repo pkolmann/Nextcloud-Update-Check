@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	  xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+	<id>updatestatusinfluxdb</id>
+	<name>Update Status Influx D B</name>
+	<summary>Checks regularly if the current version is uptodate and pushes this status to InfluxDB</summary>
+	<description>Monitors if there are updates available and sends at least a daily notification to an InfluxDB.
+
+If an update is available, it specifies also the current version and the version it will update to.</description>
+	<version>1.0.0</version>
+	<licence>agpl</licence>
+	<author mail="philipp@kolmann.at" homepage="https://github.com/pkolmann/Nextcloud-Update-Check">Philipp Kolmann</author>
+	<namespace>UpdateStatusInfluxDB</namespace>
+	<category>monitoring</category>
+	<bugs>https://github.com/pkolmann/Nextcloud-Update-Check/issues</bugs>
+	<dependencies>
+		<nextcloud min-version="29" max-version="29"/>
+	</dependencies>
+	<navigations>
+		<navigation>
+			<id>updatestatusinfluxdb</id>
+			<name>Update Status Influx D B</name>
+			<route>updatestatusinfluxdb.page.index</route>
+			<icon>app.svg</icon>
+			<type>link</type>
+		</navigation>
+	</navigations>
+</info>
