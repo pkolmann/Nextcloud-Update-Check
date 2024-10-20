@@ -1,8 +1,6 @@
 {
 	"name": "nextcloud/updatestatusinfluxdb",
-	"description": "Monitors if there are updates available and sends at least a daily notification to an InfluxDB.
-
-If an update is available, it specifies also the current version and the version it will update to.",
+	"description": "Monitors if there are updates available and sends at least a daily notification to an InfluxDB.\n\nIf an update is available, it specifies also the current version and the version it will update to.",
 	"license": "AGPL-3.0-or-later",
 	"authors": [
 		{
